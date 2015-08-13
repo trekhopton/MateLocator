@@ -24,30 +24,31 @@
 			<span id="username">John Smith</span>
 			<button type="button">Logout</button>
 		</div>
-		<span>
-			<div id="sidebar">
-				<div>
-					<input type="text">
-						<button id="search" type="button">
-							<img src="images/magnifying_glass.png" alt="Search">
-						</button>
-					</input>
-				</div>
-				<div>
-					<label for="sortby">Sort by: </label>
-					<select id="sortby">
-						<option value="alphaasc">Alphabetical (A-Z)</option>
-						<option value="alphadesc">Alphabetical (Z-A)</option>
-						<option value="distance">Distance</option>
-						<option value="recent">Most Recent</option>
-					</select>
-				</div>
+		
+		<span id="sidebar">
+			<div>
+				<input type="text">
+					<button id="search" type="button">
+						<img src="images/magnifying_glass.png" alt="Search">
+					</button>
+				</input>
 			</div>
-			
-			<div id="googleMap" style="width:500px;height:380px;">
+			<div>
+				<label for="sortby">Sort by: </label>
+				<select id="sortby">
+					<option value="alphaasc">Alphabetical (A-Z)</option>
+					<option value="alphadesc">Alphabetical (Z-A)</option>
+					<option value="distance">Distance</option>
+					<option value="recent">Most Recent</option>
+				</select>
+			</div>
+			<div id="friendlist">
+				<!--TODO: Add friend list-->
 			</div>
 		</span>
 		
+		<div id="googleMap" style="width:500px;height:380px;">
+		</div>
 	</body>
 
 </html>
