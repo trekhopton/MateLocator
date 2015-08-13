@@ -1,0 +1,10 @@
+body {
+	background-color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: 95%;
+        width: 95%;
+	}
+html, body, #map-canvas {
+        height: 100%;
+        width: 100%;
+      }
