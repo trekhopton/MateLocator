@@ -3,5 +3,7 @@ body {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         height: 95%;
         width: 95%;
-	}
+}
 h1 { 
+	display:inline;
+}
