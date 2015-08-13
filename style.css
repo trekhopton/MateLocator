@@ -4,7 +4,4 @@ body {
         height: 95%;
         width: 95%;
 	}
-html, body, #map-canvas {
-        height: 100%;
-        width: 100%;
-      }
+h1 { 
