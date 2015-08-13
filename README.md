@@ -1,2 +1,0 @@
-# MateLocator
-uni project
