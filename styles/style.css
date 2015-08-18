@@ -1,8 +1,20 @@
+body {
+	background-color:skyblue;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	
+}
+
 #sidebar {
-	background-color:skyblue;	
+	text-align:left;
 }
-}
-h1 { 
+
+h1,h2 { 
 	display:inline;
 }
+
+#header {
+	display:inline;
+}
+
 
