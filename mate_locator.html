@@ -12,30 +12,23 @@
 				zoom:9,
 		    	mapTypeId:google.maps.MapTypeId.ROADMAP
 			};
-			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			var map=new google.maps.Map(document.getElementById("google_map"),mapProp);
 		}
 		google.maps.event.addDomListener(window, 'load', initialize);
 		</script>
 	</head>
 
 	<body>
-		<div id="header">
-			<h2>Locate a Mate</h2>
-			<span id="username">John Smith</span>
-			<button type="button">
-				<img src="images/logout.png" alt="Logout">
-			</button>
-		</div>
 		
-		<span id="sidebar">
-			<div>
-				<input type="text">
-					<button id="search" type="button">
-						<img src="images/magnifying_glass.png" alt="Search">
-					</button>
-				</input>
+		<div id="sidebar" >
+			<div id="searchbox">
+				<input id="search_text" type="text" placeholder=""/>
+				<button id="search_button" type="submit">
+					<img src="Images/SearchButton.png">
+				</button>
 			</div>
-			<div>
+			<br>
+			<div id="sortbox">
 				<label for="sortby">Sort by: </label>
 				<select id="sortby">
 					<option value="alphaasc">Alphabetical (A-Z)</option>
@@ -47,10 +40,24 @@
 			<div id="friendlist">
 				<!--TODO: Add friend list-->
 			</div>
-		</span>
-		
-		<div id="googleMap" style="width:500px;height:380px;">
 		</div>
+		
+		<div id="rightbox">
+			<div id="header">
+				<h2>Locate a Mate</h2>
+				<div id= "userbox">
+					<label for="logout">John Smith</label>
+					<button id="logout" type="button">
+						<img src="Images/logout.png" alt="Logout">
+					</button>
+				</div>
+			</div>
+			
+			<div id="google_map">
+			</div>
+		</div>
+		
+		
 	</body>
 
 </html>
