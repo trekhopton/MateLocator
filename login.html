@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="Styles/style.css">
 </head>
 	<title> Locate A Mate </title>
 	<body>
-			<h1>Locate A Mate </h1>
-			<p> This site helps you locate your friends using a map </p>
-			<h2>Login:</h2>
-			<form action ="mate_locator.html">
-				Username:
-				<input type = "text" placeholder = "username">
+			<div id="loginbox">
+				<h2>Locate A Mate </h2>
+				<p> This site helps you locate your friends using a map </p>
+				<h3>Login:</h3>
+				<form action ="mate_locator.html">
+					<input type = "text" placeholder = "username">
+					<br>
+					<input type = "password" placeholder = "password">
+					<br>
+					<input type="submit" value="Login"> 
+				</form>
 				<br>
-				Password:
-				<input type = "password" placeholder = "password">
-				<br>
-				<input type="submit" value="Login"> 
-			</form>
-			<p> To use this site you will need a Facebook account </p>
+				<button id="signup">Sign up to Facebook</button>
+			</div>	
 	</body>
 </html>

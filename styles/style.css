@@ -8,6 +8,13 @@ body {
 	margin:8px;
 	height:calc(100% - 16px);
 }
+#loginbox{
+	position:relative;
+	top:30%;	
+}
+#signup{
+	padding:8px;
+}
 #sidebar {
 	text-align:left;
 	width:15%;
@@ -28,6 +35,9 @@ button:active {
 }
 #search_button{
 	float:left;
+	height:30px;
+	width:30px;
+	padding:0px;
 }
 #search_text{
 	height:30px;
@@ -45,15 +55,16 @@ h2{
 	text-shadow:2px 2px 5px black;
 }
 button {
-	height:30px;
-	width:30px;
 	border:0px;
 	margin:0px;
-	padding:0px;
 	background-color:#66C2FF;
 }
+
 #logout{
+	height:30px;
+	width:30px;
 	box-shadow:2px 2px 10px grey;
+	padding:0px;
 }
 #sortbox{
 	float:right;
@@ -63,6 +74,7 @@ button {
 	border:0px;
 	height:30px;
 	box-shadow:2px 2px 10px grey;
+	background-color:white;
 }
 #userbox {
 	float:right;
