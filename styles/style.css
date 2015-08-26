@@ -2,7 +2,7 @@ html{
 	height:100%;	
 }
 body {
-	background-color:white;
+	background:linear-gradient(#CCF5FF,lightskyblue);
 	font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 	text-align: center;
 	margin:8px;
@@ -10,7 +10,7 @@ body {
 }
 #loginbox{
 	position:relative;
-	top:30%;	
+	top:10%;	
 }
 #signup{
 	padding:8px;
@@ -25,7 +25,8 @@ body {
 #searchbox{
 	height:30px;
 	width:calc(100% - 8px);
-	box-shadow:2px 2px 10px grey;
+	box-shadow:1px 1px 4px grey;
+	border-radius:8px;
 }
 button:hover {
 	background-color:#B2E0FF;
@@ -38,6 +39,8 @@ button:active {
 	height:30px;
 	width:30px;
 	padding:0px;
+	border-top-left-radius:0px;
+	border-bottom-left-radius:0px;
 }
 #search_text{
 	height:30px;
@@ -46,24 +49,27 @@ button:active {
 	float:left;
 	margin:0px;
 	padding:0px;
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;
 }
 h1,h2,h3 { 
 	display:inline;
 }
 h2{
 	color:#66C2FF;
-	text-shadow:2px 2px 5px black;
+	text-shadow:1px 1px 2px black;
 }
 button {
 	border:0px;
 	margin:0px;
 	background-color:#66C2FF;
+	border-radius:8px;
 }
 
 #logout{
 	height:30px;
 	width:30px;
-	box-shadow:2px 2px 10px grey;
+	box-shadow:1px 1px 4px grey;
 	padding:0px;
 }
 #sortbox{
@@ -73,7 +79,7 @@ button {
 #sortby {
 	border:0px;
 	height:30px;
-	box-shadow:2px 2px 10px grey;
+	box-shadow:1px 1px 4px grey;
 	background-color:white;
 }
 #userbox {
