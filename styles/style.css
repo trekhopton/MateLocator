@@ -14,10 +14,12 @@ body {
 }
 #signup{
 	padding:8px;
+	color:white;
 }
 #sidebar {
 	text-align:left;
-	width:15%;
+	width:200px;
+	height:100%;
 	float:left;
 	margin:0px;
 	padding:0px;
@@ -28,10 +30,10 @@ body {
 	box-shadow:1px 1px 4px grey;
 	border-radius:8px;
 }
-button:hover {
+button:hover, #login:hover{
 	background-color:#B2E0FF;
 }
-button:active {
+button:active, #login:active{
 	background-color:white;
 }
 #search_button{
@@ -59,7 +61,8 @@ h2{
 	color:#66C2FF;
 	text-shadow:1px 1px 2px black;
 }
-button {
+button, #login{
+	color:white;
 	border:0px;
 	margin:0px;
 	background-color:#3865a2;
@@ -83,16 +86,16 @@ button {
 	background-color:white;
 	border-radius:8px;
 }
-#userbox {
-	float:right;
-}
 #rightbox {
 	float:right;
 	height:100%;
-	width:85%;
+	width:calc(100% - 200px);
 }
 #header {
 	height:30px;
+}
+#userbox {
+	float:right;
 }
 #google_map {
 	margin:-6px;
